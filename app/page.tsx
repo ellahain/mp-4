@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 /*The iframe code comes from the video on the Harvard Art Museums'
 website and the description of the Harvard Art Museums is my own writing
