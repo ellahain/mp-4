@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <nav className="p-2 mx-auto text-center bg-black text-white">
+        <nav className="p-2 text-center bg-black text-white">
             <ul className="nav">
-                <li className="m-2">
-                    <Link href={"/"} className="p-1 m-2 text-2xl x- hover:underline">Home</Link>
-                    <Link href={"/artworks"} className="p-1 m-2 text-2xl x-1 hover:underline">Artworks</Link>
+                <li className="!m-4">
+                    <Link href={"/"} className=" !m-2 text-2xl hover:underline">Home</Link>
+                    <Link href={"/artworks"} className="!m-2 pl-4 text-2xl hover:underline border-l-white border-l-2">Artworks</Link>
                 </li>
             </ul>
         </nav>
